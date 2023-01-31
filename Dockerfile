@@ -17,4 +17,4 @@ FROM gcr.io/distroless/python3-debian11
 COPY --from=build-venv /venv /venv
 COPY . /app
 WORKDIR /app
-ENTRYPOINT ["/venv/bin/python3", "-m", "hypercorn", "main:app"]
+ENTRYPOINT ["/venv/bin/python3", "-m", "hypercorn", "main:app", "--bind", "0.0.0.0:8000"]
