@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "memebed"
+name = "memestate"
 version = "0.1.0"
 description = ""
 authors = ["thrzl. <thrizzle@skiff.com>"]
