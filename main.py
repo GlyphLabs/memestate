@@ -1,5 +1,4 @@
 from typing import Union, Deque, List
-import uvicorn
 
 from cachetools import TTLCache, cached
 from fastapi import FastAPI
