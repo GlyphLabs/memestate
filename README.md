@@ -9,12 +9,12 @@ a simple (and really fast!) rest api that returns memes from reddit
 `GET` `/[subreddit]`
 gets a meme from the specified subreddit. if none is specified, it gets one from a random subreddit. you can also specify the amount of memes you want to retrieve by adding the `amount` query param.
 
-parameters
+#### parameters
 `subreddit` (optional) - the subreddit from which to retrieve the meme.
 
 `amount` (optional) - the number of memes to retrieve. default is 1.
 
-#### Example
+#### example
 get one meme from the dankmemes subreddit:
 
 `GET` `/dankmemes`
